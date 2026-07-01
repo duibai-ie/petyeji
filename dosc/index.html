@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>宠业记文档入口</title>
+    <style>
+        :root {
+            --bg: #f6f1e8;
+            --card: #fffdf8;
+            --text: #2b241d;
+            --muted: #6f6254;
+            --line: #e8dccb;
+            --accent: #c86f31;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: linear-gradient(180deg, #fbf7f1 0%, var(--bg) 100%);
+            color: var(--text);
+        }
+
+        .wrap {
+            width: min(760px, calc(100% - 32px));
+            margin: 0 auto;
+            padding: 56px 0 80px;
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--line);
+            border-radius: 24px;
+            padding: 28px;
+            box-shadow: 0 18px 40px rgba(107, 77, 49, 0.08);
+        }
+
+        h1 {
+            margin: 0 0 12px;
+            font-size: 34px;
+        }
+
+        p {
+            margin: 0 0 16px;
+            line-height: 1.75;
+            color: var(--muted);
+        }
+
+        .links {
+            display: grid;
+            gap: 12px;
+            margin-top: 20px;
+        }
+
+        a {
+            display: block;
+            padding: 16px 18px;
+            border: 1px solid var(--line);
+            border-radius: 16px;
+            text-decoration: none;
+            color: var(--text);
+            background: #fffaf4;
+        }
+
+        a strong {
+            display: block;
+            margin-bottom: 4px;
+            color: var(--accent);
+        }
+    </style>
+</head>
+<body>
+    <main class="wrap">
+        <section class="card">
+            <h1>宠业记文档入口</h1>
+            <p>这是宠业记在应用商店审核与对外展示时使用的公开网页入口。</p>
+            <div class="links">
+                <a href="./privacy-policy.html">
+                    <strong>隐私政策</strong>
+                    查看宠业记的数据保存、权限说明与隐私处理规则
+                </a>
+                <a href="./user-agreement.html">
+                    <strong>用户协议</strong>
+                    查看宠业记的使用说明、责任边界与服务约定
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
